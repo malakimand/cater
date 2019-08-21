@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  font-family: 'Lobster', cursive !important;
+  background-color: black;
+}
+
+.footer {
+  font-family: 'Lobster', cursive !important;
+  background-color: black;
+  font-size: 12px;
+  color: orange;
+}
+
+.title {
+  color: white;
+  position: absolute;
+  left: 10px;
+  font-size: 32px;
+}
+
+.text-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.text{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+.backtest {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.parallax { 
+  /* The image used */
+  background-image: url(catering1.jpg);
+  /* Set a specific height */
+  height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 { 
+  /* The image used */
+  background-image: url(catering2.jpg);
+  /* Set a specific height */
+  height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
